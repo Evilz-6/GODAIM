@@ -1,4 +1,4 @@
-cal hotkey = 't' 
+local hotkey = 't' 
 local mouse = game.Players.LocalPlayer:GetMouse()
 
 mouse.KeyDown:Connect(function(key)
